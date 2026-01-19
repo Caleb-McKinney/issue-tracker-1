@@ -1,7 +1,8 @@
 const chaiHttp = require('chai-http');
 const chai = require('chai');
 const assert = chai.assert;
-const server = require('../server');
+const server = 'https://b1c5fb82-c398-4ea7-accb-8a90321b3001-00-1k8yc84bjzmck.picard.replit.dev';
+
 
 chai.use(chaiHttp);
 
